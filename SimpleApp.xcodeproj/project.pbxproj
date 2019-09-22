@@ -13,6 +13,13 @@
 		DB5599A523379409009358D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5599A423379409009358D6 /* Assets.xcassets */; };
 		DB5599A823379409009358D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5599A623379409009358D6 /* LaunchScreen.storyboard */; };
 		DB5599AB23379409009358D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599AA23379409009358D6 /* main.m */; };
+		DB5599B323379506009358D6 /* DelCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599B123379506009358D6 /* DelCellView.m */; };
+		DB5599B823379515009358D6 /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599B523379515009358D6 /* RecommendViewController.m */; };
+		DB5599B923379515009358D6 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599B623379515009358D6 /* VideoViewController.m */; };
+		DB5599C123379674009358D6 /* WkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599BD23379674009358D6 /* WkViewController.m */; };
+		DB5599C223379674009358D6 /* NormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599BF23379674009358D6 /* NormalTableViewCell.m */; };
+		DB5599C723379746009358D6 /* ListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599C623379746009358D6 /* ListLoader.m */; };
+		DB5599C9233798CF009358D6 /* icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB5599C8233798CF009358D6 /* icon.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,19 @@
 		DB5599A723379409009358D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB5599A923379409009358D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB5599AA23379409009358D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB5599B123379506009358D6 /* DelCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelCellView.m; sourceTree = "<group>"; };
+		DB5599B223379506009358D6 /* DelCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelCellView.h; sourceTree = "<group>"; };
+		DB5599B423379515009358D6 /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		DB5599B523379515009358D6 /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
+		DB5599B623379515009358D6 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		DB5599B723379515009358D6 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		DB5599BD23379674009358D6 /* WkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WkViewController.m; sourceTree = "<group>"; };
+		DB5599BE23379674009358D6 /* NormalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalTableViewCell.h; sourceTree = "<group>"; };
+		DB5599BF23379674009358D6 /* NormalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalTableViewCell.m; sourceTree = "<group>"; };
+		DB5599C023379674009358D6 /* WkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WkViewController.h; sourceTree = "<group>"; };
+		DB5599C523379746009358D6 /* ListLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListLoader.h; sourceTree = "<group>"; };
+		DB5599C623379746009358D6 /* ListLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListLoader.m; sourceTree = "<group>"; };
+		DB5599C8233798CF009358D6 /* icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icon.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +78,20 @@
 		DB55999A23379407009358D6 /* SimpleApp */ = {
 			isa = PBXGroup;
 			children = (
+				DB5599B423379515009358D6 /* RecommendViewController.h */,
+				DB5599B523379515009358D6 /* RecommendViewController.m */,
+				DB5599B723379515009358D6 /* VideoViewController.h */,
+				DB5599B623379515009358D6 /* VideoViewController.m */,
+				DB5599B223379506009358D6 /* DelCellView.h */,
+				DB5599BE23379674009358D6 /* NormalTableViewCell.h */,
+				DB5599BF23379674009358D6 /* NormalTableViewCell.m */,
+				DB5599C023379674009358D6 /* WkViewController.h */,
+				DB5599C423379720009358D6 /* loader */,
+				DB5599BD23379674009358D6 /* WkViewController.m */,
+				DB5599B123379506009358D6 /* DelCellView.m */,
 				DB55999B23379407009358D6 /* AppDelegate.h */,
 				DB55999C23379407009358D6 /* AppDelegate.m */,
+				DB5599C8233798CF009358D6 /* icon.bundle */,
 				DB55999E23379407009358D6 /* ViewController.h */,
 				DB55999F23379407009358D6 /* ViewController.m */,
 				DB5599A123379407009358D6 /* Main.storyboard */,
@@ -69,6 +101,15 @@
 				DB5599AA23379409009358D6 /* main.m */,
 			);
 			path = SimpleApp;
+			sourceTree = "<group>";
+		};
+		DB5599C423379720009358D6 /* loader */ = {
+			isa = PBXGroup;
+			children = (
+				DB5599C523379746009358D6 /* ListLoader.h */,
+				DB5599C623379746009358D6 /* ListLoader.m */,
+			);
+			path = loader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5599C9233798CF009358D6 /* icon.bundle in Resources */,
 				DB5599A823379409009358D6 /* LaunchScreen.storyboard in Resources */,
 				DB5599A523379409009358D6 /* Assets.xcassets in Resources */,
 				DB5599A323379407009358D6 /* Main.storyboard in Resources */,
@@ -141,9 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5599B323379506009358D6 /* DelCellView.m in Sources */,
+				DB5599B823379515009358D6 /* RecommendViewController.m in Sources */,
+				DB5599C123379674009358D6 /* WkViewController.m in Sources */,
+				DB5599B923379515009358D6 /* VideoViewController.m in Sources */,
+				DB5599C223379674009358D6 /* NormalTableViewCell.m in Sources */,
 				DB5599A023379407009358D6 /* ViewController.m in Sources */,
 				DB5599AB23379409009358D6 /* main.m in Sources */,
 				DB55999D23379407009358D6 /* AppDelegate.m in Sources */,
+				DB5599C723379746009358D6 /* ListLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
