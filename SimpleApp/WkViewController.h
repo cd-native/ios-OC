@@ -16,6 +16,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong,nonatomic,readwrite) WKWebView* webView;
 @property (strong,nonatomic,readwrite) UIProgressView* uiProgressView;
 
+@property (strong,nonatomic,readwrite) NSString* artileUrl;
+
+-  (instancetype)initWithUrl:(NSString*) url;
+
 @end
 
 NS_ASSUME_NONNULL_END

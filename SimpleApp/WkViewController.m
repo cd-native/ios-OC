@@ -15,6 +15,14 @@
 
 @implementation WkViewController
 
+-  (instancetype)initWithUrl:(NSString*) url{
+    self =  [super init];
+    if (self) {
+        _artileUrl = url;
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:({
@@ -32,7 +40,7 @@
         self.uiProgressView;
     })];
     
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"]]];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.artileUrl]]];
     
 
     //     webView 协议 实现 协议两个方法比较重要;
@@ -46,7 +54,6 @@
 #pragma mark-addObserver的回调
 
 - (void)observeValueForKeyPath:(nullable NSString *)keyPath ofObject:(nullable id)object change:(nullable NSDictionary<NSKeyValueChangeKey, id> *)change context:(nullable void *)context{
-    NSLog(@"test");
 //  webview加载进度 同步到 uiProgressView的属性 progress
     self.uiProgressView.progress = self.webView.estimatedProgress;
 }
@@ -73,6 +80,6 @@
 
 - (void)test{
 //    [self.webView  loadRequest:[NSURLRequest requestWithURL: NSURL URLWithString: ]];
-    
 }
+
 @end

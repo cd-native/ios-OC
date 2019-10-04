@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB13D92C233CF54A007EF789 /* ToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DB13D92B233CF54A007EF789 /* ToolBar.m */; };
+		DB29521F2338A9780069A474 /* ListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB29521E2338A9780069A474 /* ListItem.m */; };
+		DB2E543C234775C200ACE6AC /* GTSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2E543B234775C200ACE6AC /* GTSplashView.m */; };
+		DB470622233CCE1900625107 /* VideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB470621233CCE1900625107 /* VideoPlayer.m */; };
+		DB473A5E233B9DCE00F69151 /* VideoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB473A5D233B9DCE00F69151 /* VideoCollectionViewCell.m */; };
 		DB55999D23379407009358D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB55999C23379407009358D6 /* AppDelegate.m */; };
 		DB5599A023379407009358D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB55999F23379407009358D6 /* ViewController.m */; };
 		DB5599A323379407009358D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5599A123379407009358D6 /* Main.storyboard */; };
 		DB5599A523379409009358D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5599A423379409009358D6 /* Assets.xcassets */; };
-		DB5599A823379409009358D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5599A623379409009358D6 /* LaunchScreen.storyboard */; };
 		DB5599AB23379409009358D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599AA23379409009358D6 /* main.m */; };
 		DB5599B323379506009358D6 /* DelCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599B123379506009358D6 /* DelCellView.m */; };
 		DB5599B823379515009358D6 /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599B523379515009358D6 /* RecommendViewController.m */; };
@@ -20,9 +24,22 @@
 		DB5599C223379674009358D6 /* NormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599BF23379674009358D6 /* NormalTableViewCell.m */; };
 		DB5599C723379746009358D6 /* ListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599C623379746009358D6 /* ListLoader.m */; };
 		DB5599C9233798CF009358D6 /* icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB5599C8233798CF009358D6 /* icon.bundle */; };
+		DBC4BA1823473D9200B35C0E /* GTScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC4BA1723473D9200B35C0E /* GTScreen.m */; };
+		EE4DF86B5FD4D310B9EE1D22 /* libPods-SimpleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BD867391C1632EB1E3B435 /* libPods-SimpleApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E76F630E82DB139A5871E17 /* Pods-SimpleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleApp.debug.xcconfig"; path = "Target Support Files/Pods-SimpleApp/Pods-SimpleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DB13D92A233CF54A007EF789 /* ToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolBar.h; sourceTree = "<group>"; };
+		DB13D92B233CF54A007EF789 /* ToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolBar.m; sourceTree = "<group>"; };
+		DB29521D2338A9780069A474 /* ListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListItem.h; sourceTree = "<group>"; };
+		DB29521E2338A9780069A474 /* ListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListItem.m; sourceTree = "<group>"; };
+		DB2E543A234775C200ACE6AC /* GTSplashView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTSplashView.h; sourceTree = "<group>"; };
+		DB2E543B234775C200ACE6AC /* GTSplashView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTSplashView.m; sourceTree = "<group>"; };
+		DB470620233CCE1900625107 /* VideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayer.h; sourceTree = "<group>"; };
+		DB470621233CCE1900625107 /* VideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayer.m; sourceTree = "<group>"; };
+		DB473A5C233B9DCE00F69151 /* VideoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCollectionViewCell.h; sourceTree = "<group>"; };
+		DB473A5D233B9DCE00F69151 /* VideoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCollectionViewCell.m; sourceTree = "<group>"; };
 		DB55999823379407009358D6 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB55999B23379407009358D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB55999C23379407009358D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,7 +47,6 @@
 		DB55999F23379407009358D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB5599A223379407009358D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB5599A423379409009358D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DB5599A723379409009358D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB5599A923379409009358D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB5599AA23379409009358D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB5599B123379506009358D6 /* DelCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelCellView.m; sourceTree = "<group>"; };
@@ -46,6 +62,10 @@
 		DB5599C523379746009358D6 /* ListLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListLoader.h; sourceTree = "<group>"; };
 		DB5599C623379746009358D6 /* ListLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListLoader.m; sourceTree = "<group>"; };
 		DB5599C8233798CF009358D6 /* icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icon.bundle; sourceTree = "<group>"; };
+		DBC4BA1623473D9200B35C0E /* GTScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTScreen.h; sourceTree = "<group>"; };
+		DBC4BA1723473D9200B35C0E /* GTScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTScreen.m; sourceTree = "<group>"; };
+		E47031AF15D1529A72EA3D42 /* Pods-SimpleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleApp.release.xcconfig"; path = "Target Support Files/Pods-SimpleApp/Pods-SimpleApp.release.xcconfig"; sourceTree = "<group>"; };
+		F8BD867391C1632EB1E3B435 /* libPods-SimpleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,17 +73,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE4DF86B5FD4D310B9EE1D22 /* libPods-SimpleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B91D574600EA4B00E82D0A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD867391C1632EB1E3B435 /* libPods-SimpleApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7312B8FEF3E1CD6F988F07C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E76F630E82DB139A5871E17 /* Pods-SimpleApp.debug.xcconfig */,
+				E47031AF15D1529A72EA3D42 /* Pods-SimpleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB295219233872E60069A474 /* NewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB29521C233876780069A474 /* controller */,
+				DB29521B233873550069A474 /* view */,
+				DB29521A233872FC0069A474 /* model */,
+			);
+			path = NewController;
+			sourceTree = "<group>";
+		};
+		DB29521A233872FC0069A474 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DB5599C523379746009358D6 /* ListLoader.h */,
+				DB5599C623379746009358D6 /* ListLoader.m */,
+				DB29521D2338A9780069A474 /* ListItem.h */,
+				DB29521E2338A9780069A474 /* ListItem.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DB29521B233873550069A474 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DB5599B223379506009358D6 /* DelCellView.h */,
+				DB5599B123379506009358D6 /* DelCellView.m */,
+				DB5599BE23379674009358D6 /* NormalTableViewCell.h */,
+				DB5599BF23379674009358D6 /* NormalTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DB29521C233876780069A474 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB55999F23379407009358D6 /* ViewController.m */,
+				DB55999E23379407009358D6 /* ViewController.h */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		DB473A5B233B961100F69151 /* VideoController */ = {
+			isa = PBXGroup;
+			children = (
+				DB5599B723379515009358D6 /* VideoViewController.h */,
+				DB5599B623379515009358D6 /* VideoViewController.m */,
+				DB473A5D233B9DCE00F69151 /* VideoCollectionViewCell.m */,
+				DB473A5C233B9DCE00F69151 /* VideoCollectionViewCell.h */,
+				DB470620233CCE1900625107 /* VideoPlayer.h */,
+				DB470621233CCE1900625107 /* VideoPlayer.m */,
+				DB13D92A233CF54A007EF789 /* ToolBar.h */,
+				DB13D92B233CF54A007EF789 /* ToolBar.m */,
+			);
+			path = VideoController;
+			sourceTree = "<group>";
+		};
 		DB55998F23379407009358D6 = {
 			isa = PBXGroup;
 			children = (
 				DB55999A23379407009358D6 /* SimpleApp */,
 				DB55999923379407009358D6 /* Products */,
+				B7312B8FEF3E1CD6F988F07C /* Pods */,
+				0B91D574600EA4B00E82D0A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,38 +174,33 @@
 		DB55999A23379407009358D6 /* SimpleApp */ = {
 			isa = PBXGroup;
 			children = (
-				DB5599B423379515009358D6 /* RecommendViewController.h */,
+				DBC4BA1523473D4B00B35C0E /* Utils */,
+				DB473A5B233B961100F69151 /* VideoController */,
+				DB295219233872E60069A474 /* NewController */,
 				DB5599B523379515009358D6 /* RecommendViewController.m */,
-				DB5599B723379515009358D6 /* VideoViewController.h */,
-				DB5599B623379515009358D6 /* VideoViewController.m */,
-				DB5599B223379506009358D6 /* DelCellView.h */,
-				DB5599BE23379674009358D6 /* NormalTableViewCell.h */,
-				DB5599BF23379674009358D6 /* NormalTableViewCell.m */,
+				DB5599B423379515009358D6 /* RecommendViewController.h */,
 				DB5599C023379674009358D6 /* WkViewController.h */,
-				DB5599C423379720009358D6 /* loader */,
 				DB5599BD23379674009358D6 /* WkViewController.m */,
-				DB5599B123379506009358D6 /* DelCellView.m */,
 				DB55999B23379407009358D6 /* AppDelegate.h */,
 				DB55999C23379407009358D6 /* AppDelegate.m */,
 				DB5599C8233798CF009358D6 /* icon.bundle */,
-				DB55999E23379407009358D6 /* ViewController.h */,
-				DB55999F23379407009358D6 /* ViewController.m */,
 				DB5599A123379407009358D6 /* Main.storyboard */,
 				DB5599A423379409009358D6 /* Assets.xcassets */,
-				DB5599A623379409009358D6 /* LaunchScreen.storyboard */,
 				DB5599A923379409009358D6 /* Info.plist */,
 				DB5599AA23379409009358D6 /* main.m */,
 			);
 			path = SimpleApp;
 			sourceTree = "<group>";
 		};
-		DB5599C423379720009358D6 /* loader */ = {
+		DBC4BA1523473D4B00B35C0E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				DB5599C523379746009358D6 /* ListLoader.h */,
-				DB5599C623379746009358D6 /* ListLoader.m */,
+				DBC4BA1623473D9200B35C0E /* GTScreen.h */,
+				DBC4BA1723473D9200B35C0E /* GTScreen.m */,
+				DB2E543A234775C200ACE6AC /* GTSplashView.h */,
+				DB2E543B234775C200ACE6AC /* GTSplashView.m */,
 			);
-			path = loader;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB5599AE23379409009358D6 /* Build configuration list for PBXNativeTarget "SimpleApp" */;
 			buildPhases = (
+				A963749E6591F5B639489FC7 /* [CP] Check Pods Manifest.lock */,
 				DB55999423379407009358D6 /* Sources */,
 				DB55999523379407009358D6 /* Frameworks */,
 				DB55999623379407009358D6 /* Resources */,
@@ -170,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5599C9233798CF009358D6 /* icon.bundle in Resources */,
-				DB5599A823379409009358D6 /* LaunchScreen.storyboard in Resources */,
 				DB5599A523379409009358D6 /* Assets.xcassets in Resources */,
 				DB5599A323379407009358D6 /* Main.storyboard in Resources */,
 			);
@@ -178,19 +269,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A963749E6591F5B639489FC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB55999423379407009358D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC4BA1823473D9200B35C0E /* GTScreen.m in Sources */,
 				DB5599B323379506009358D6 /* DelCellView.m in Sources */,
 				DB5599B823379515009358D6 /* RecommendViewController.m in Sources */,
 				DB5599C123379674009358D6 /* WkViewController.m in Sources */,
 				DB5599B923379515009358D6 /* VideoViewController.m in Sources */,
 				DB5599C223379674009358D6 /* NormalTableViewCell.m in Sources */,
+				DB13D92C233CF54A007EF789 /* ToolBar.m in Sources */,
+				DB473A5E233B9DCE00F69151 /* VideoCollectionViewCell.m in Sources */,
 				DB5599A023379407009358D6 /* ViewController.m in Sources */,
 				DB5599AB23379409009358D6 /* main.m in Sources */,
+				DB2E543C234775C200ACE6AC /* GTSplashView.m in Sources */,
+				DB470622233CCE1900625107 /* VideoPlayer.m in Sources */,
 				DB55999D23379407009358D6 /* AppDelegate.m in Sources */,
+				DB29521F2338A9780069A474 /* ListItem.m in Sources */,
 				DB5599C723379746009358D6 /* ListLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,14 +326,6 @@
 				DB5599A223379407009358D6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DB5599A623379409009358D6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB5599A723379409009358D6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -331,8 +445,10 @@
 		};
 		DB5599AF23379409009358D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E76F630E82DB139A5871E17 /* Pods-SimpleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FVN8ZX9F99;
 				INFOPLIST_FILE = SimpleApp/Info.plist;
@@ -348,8 +464,10 @@
 		};
 		DB5599B023379409009358D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47031AF15D1529A72EA3D42 /* Pods-SimpleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FVN8ZX9F99;
 				INFOPLIST_FILE = SimpleApp/Info.plist;
