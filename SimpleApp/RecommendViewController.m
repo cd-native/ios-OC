@@ -71,7 +71,15 @@
 }
 
 - (void)uiViewClick{
-    NSLog(@"uiViewClick");
+    NSURL *urlScheme = [NSURL URLWithString:@"testScheme://"];
+//  检测能否打开其他app
+//  只有将需要是否检测手机有没有安装这个app，的scheme放到白名单，才可以检测出来手机是否安装这个app
+//    
+    __unused BOOL canOpenURL = [[UIApplication sharedApplication] canOpenURL:urlScheme];
+    [[UIApplication sharedApplication] openURL:urlScheme options:@{} completionHandler:^(BOOL success) {
+//        打开其他app之后的回调
+        //
+    }];
 }
 // 只要开始滚动，就会触发
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{

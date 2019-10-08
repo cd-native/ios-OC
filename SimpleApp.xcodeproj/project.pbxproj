@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB024571234A08310012D5F6 /* GTFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB02456F234A07E10012D5F6 /* GTFramework.framework */; };
+		DB024572234A08310012D5F6 /* GTFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB02456F234A07E10012D5F6 /* GTFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DB13D92C233CF54A007EF789 /* ToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DB13D92B233CF54A007EF789 /* ToolBar.m */; };
+		DB1B784D2349FA7200082549 /* libGTStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1B784B2349FA7200082549 /* libGTStatic.a */; };
 		DB29521F2338A9780069A474 /* ListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB29521E2338A9780069A474 /* ListItem.m */; };
 		DB2E543C234775C200ACE6AC /* GTSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2E543B234775C200ACE6AC /* GTSplashView.m */; };
 		DB470622233CCE1900625107 /* VideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB470621233CCE1900625107 /* VideoPlayer.m */; };
@@ -24,14 +27,37 @@
 		DB5599C223379674009358D6 /* NormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599BF23379674009358D6 /* NormalTableViewCell.m */; };
 		DB5599C723379746009358D6 /* ListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5599C623379746009358D6 /* ListLoader.m */; };
 		DB5599C9233798CF009358D6 /* icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB5599C8233798CF009358D6 /* icon.bundle */; };
+		DB7C2D01234AE7D2008549E4 /* GTMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7C2D00234AE7D2008549E4 /* GTMineViewController.m */; };
+		DB7C2D04234AE923008549E4 /* GTLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7C2D03234AE923008549E4 /* GTLogin.m */; };
+		DB7C2D0A234AF5CF008549E4 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7C2D09234AF5CF008549E4 /* TencentOpenAPI.framework */; };
+		DB7C2D0D234B0D5C008549E4 /* GTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7C2D0C234B0D5C008549E4 /* GTLocation.m */; };
 		DBC4BA1823473D9200B35C0E /* GTScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC4BA1723473D9200B35C0E /* GTScreen.m */; };
+		DBC9DE7923482D4F0022F1F8 /* GTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9DE7823482D4F0022F1F8 /* GTMediator.m */; };
 		EE4DF86B5FD4D310B9EE1D22 /* libPods-SimpleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BD867391C1632EB1E3B435 /* libPods-SimpleApp.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DB024573234A08310012D5F6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DB024572234A08310012D5F6 /* GTFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		5E76F630E82DB139A5871E17 /* Pods-SimpleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleApp.debug.xcconfig"; path = "Target Support Files/Pods-SimpleApp/Pods-SimpleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DB02456F234A07E10012D5F6 /* GTFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTFramework.framework; sourceTree = "<group>"; };
 		DB13D92A233CF54A007EF789 /* ToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolBar.h; sourceTree = "<group>"; };
 		DB13D92B233CF54A007EF789 /* ToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolBar.m; sourceTree = "<group>"; };
+		DB1B784A2349FA7200082549 /* GTStaticTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTStaticTest.h; sourceTree = "<group>"; };
+		DB1B784B2349FA7200082549 /* libGTStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGTStatic.a; sourceTree = "<group>"; };
+		DB1B784C2349FA7200082549 /* GTStatic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTStatic.h; sourceTree = "<group>"; };
 		DB29521D2338A9780069A474 /* ListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListItem.h; sourceTree = "<group>"; };
 		DB29521E2338A9780069A474 /* ListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListItem.m; sourceTree = "<group>"; };
 		DB2E543A234775C200ACE6AC /* GTSplashView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTSplashView.h; sourceTree = "<group>"; };
@@ -62,8 +88,17 @@
 		DB5599C523379746009358D6 /* ListLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListLoader.h; sourceTree = "<group>"; };
 		DB5599C623379746009358D6 /* ListLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListLoader.m; sourceTree = "<group>"; };
 		DB5599C8233798CF009358D6 /* icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icon.bundle; sourceTree = "<group>"; };
+		DB7C2CFF234AE7D2008549E4 /* GTMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMineViewController.h; sourceTree = "<group>"; };
+		DB7C2D00234AE7D2008549E4 /* GTMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMineViewController.m; sourceTree = "<group>"; };
+		DB7C2D02234AE923008549E4 /* GTLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLogin.h; sourceTree = "<group>"; };
+		DB7C2D03234AE923008549E4 /* GTLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTLogin.m; sourceTree = "<group>"; };
+		DB7C2D09234AF5CF008549E4 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		DB7C2D0B234B0D5C008549E4 /* GTLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLocation.h; sourceTree = "<group>"; };
+		DB7C2D0C234B0D5C008549E4 /* GTLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTLocation.m; sourceTree = "<group>"; };
 		DBC4BA1623473D9200B35C0E /* GTScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTScreen.h; sourceTree = "<group>"; };
 		DBC4BA1723473D9200B35C0E /* GTScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTScreen.m; sourceTree = "<group>"; };
+		DBC9DE7723482D4F0022F1F8 /* GTMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMediator.h; sourceTree = "<group>"; };
+		DBC9DE7823482D4F0022F1F8 /* GTMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMediator.m; sourceTree = "<group>"; };
 		E47031AF15D1529A72EA3D42 /* Pods-SimpleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleApp.release.xcconfig"; path = "Target Support Files/Pods-SimpleApp/Pods-SimpleApp.release.xcconfig"; sourceTree = "<group>"; };
 		F8BD867391C1632EB1E3B435 /* libPods-SimpleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,7 +108,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1B784D2349FA7200082549 /* libGTStatic.a in Frameworks */,
+				DB7C2D0A234AF5CF008549E4 /* TencentOpenAPI.framework in Frameworks */,
 				EE4DF86B5FD4D310B9EE1D22 /* libPods-SimpleApp.a in Frameworks */,
+				DB024571234A08310012D5F6 /* GTFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +135,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DB1B78492349FA4600082549 /* GTFramework */ = {
+			isa = PBXGroup;
+			children = (
+				DB7C2D09234AF5CF008549E4 /* TencentOpenAPI.framework */,
+				DB02456F234A07E10012D5F6 /* GTFramework.framework */,
+				DB1B784C2349FA7200082549 /* GTStatic.h */,
+				DB1B784A2349FA7200082549 /* GTStaticTest.h */,
+				DB1B784B2349FA7200082549 /* libGTStatic.a */,
+			);
+			path = GTFramework;
+			sourceTree = "<group>";
+		};
 		DB295219233872E60069A474 /* NewController */ = {
 			isa = PBXGroup;
 			children = (
+				DBD54CBF234830280083A056 /* detail */,
 				DB29521C233876780069A474 /* controller */,
 				DB29521B233873550069A474 /* view */,
 				DB29521A233872FC0069A474 /* model */,
@@ -174,13 +225,13 @@
 		DB55999A23379407009358D6 /* SimpleApp */ = {
 			isa = PBXGroup;
 			children = (
+				DB7C2CFE234AE4DB008549E4 /* MIneController */,
+				DB1B78492349FA4600082549 /* GTFramework */,
 				DBC4BA1523473D4B00B35C0E /* Utils */,
 				DB473A5B233B961100F69151 /* VideoController */,
 				DB295219233872E60069A474 /* NewController */,
 				DB5599B523379515009358D6 /* RecommendViewController.m */,
 				DB5599B423379515009358D6 /* RecommendViewController.h */,
-				DB5599C023379674009358D6 /* WkViewController.h */,
-				DB5599BD23379674009358D6 /* WkViewController.m */,
 				DB55999B23379407009358D6 /* AppDelegate.h */,
 				DB55999C23379407009358D6 /* AppDelegate.m */,
 				DB5599C8233798CF009358D6 /* icon.bundle */,
@@ -192,6 +243,17 @@
 			path = SimpleApp;
 			sourceTree = "<group>";
 		};
+		DB7C2CFE234AE4DB008549E4 /* MIneController */ = {
+			isa = PBXGroup;
+			children = (
+				DB7C2CFF234AE7D2008549E4 /* GTMineViewController.h */,
+				DB7C2D00234AE7D2008549E4 /* GTMineViewController.m */,
+				DB7C2D02234AE923008549E4 /* GTLogin.h */,
+				DB7C2D03234AE923008549E4 /* GTLogin.m */,
+			);
+			path = MIneController;
+			sourceTree = "<group>";
+		};
 		DBC4BA1523473D4B00B35C0E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,8 +261,21 @@
 				DBC4BA1723473D9200B35C0E /* GTScreen.m */,
 				DB2E543A234775C200ACE6AC /* GTSplashView.h */,
 				DB2E543B234775C200ACE6AC /* GTSplashView.m */,
+				DBC9DE7723482D4F0022F1F8 /* GTMediator.h */,
+				DBC9DE7823482D4F0022F1F8 /* GTMediator.m */,
+				DB7C2D0B234B0D5C008549E4 /* GTLocation.h */,
+				DB7C2D0C234B0D5C008549E4 /* GTLocation.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		DBD54CBF234830280083A056 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				DB5599C023379674009358D6 /* WkViewController.h */,
+				DB5599BD23379674009358D6 /* WkViewController.m */,
+			);
+			path = detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +289,7 @@
 				DB55999423379407009358D6 /* Sources */,
 				DB55999523379407009358D6 /* Frameworks */,
 				DB55999623379407009358D6 /* Resources */,
+				DB024573234A08310012D5F6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,13 +381,17 @@
 				DB5599C123379674009358D6 /* WkViewController.m in Sources */,
 				DB5599B923379515009358D6 /* VideoViewController.m in Sources */,
 				DB5599C223379674009358D6 /* NormalTableViewCell.m in Sources */,
+				DB7C2D0D234B0D5C008549E4 /* GTLocation.m in Sources */,
 				DB13D92C233CF54A007EF789 /* ToolBar.m in Sources */,
+				DBC9DE7923482D4F0022F1F8 /* GTMediator.m in Sources */,
+				DB7C2D04234AE923008549E4 /* GTLogin.m in Sources */,
 				DB473A5E233B9DCE00F69151 /* VideoCollectionViewCell.m in Sources */,
 				DB5599A023379407009358D6 /* ViewController.m in Sources */,
 				DB5599AB23379409009358D6 /* main.m in Sources */,
 				DB2E543C234775C200ACE6AC /* GTSplashView.m in Sources */,
 				DB470622233CCE1900625107 /* VideoPlayer.m in Sources */,
 				DB55999D23379407009358D6 /* AppDelegate.m in Sources */,
+				DB7C2D01234AE7D2008549E4 /* GTMineViewController.m in Sources */,
 				DB29521F2338A9780069A474 /* ListItem.m in Sources */,
 				DB5599C723379746009358D6 /* ListLoader.m in Sources */,
 			);
@@ -451,10 +531,18 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FVN8ZX9F99;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SimpleApp/GTFramework",
+				);
 				INFOPLIST_FILE = SimpleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SimpleApp/GTFramework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tujia.SimpleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -470,10 +558,18 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FVN8ZX9F99;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SimpleApp/GTFramework",
+				);
 				INFOPLIST_FILE = SimpleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SimpleApp/GTFramework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tujia.SimpleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

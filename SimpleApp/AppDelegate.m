@@ -6,13 +6,22 @@
 //  Copyright © 2019 杨崇多. All rights reserved.
 //
 
+
 #import "AppDelegate.h"
+// 我的
+#import "GTMineViewController.h"
+// 动态库
+#import "GTFramework/GTFrameworkTest.h"
 #import <UIKit/UIKit.h>
 #import "ViewController.h"
 #import "./VideoController/VideoViewController.h"
 #import "RecommendViewController.h"
 #import "NormalTableViewCell.h"
 #import "GTSplashView.h"
+#import "GTStaticTest.h" // 静态库
+#import "GTLocation.h" // 获取地理位置
+
+//#import "<GTFramework/GTFrameworkTest.h>"
 // app 代表
 //  类扩张
 //UITabBarController
@@ -41,13 +50,8 @@
     VideoViewController* videoController = [[VideoViewController alloc] init];
 
     RecommendViewController*  recommendViewController =  [[RecommendViewController alloc] init];
-    
-    UIViewController* controller4 = [[UIViewController alloc] init];
-    controller4.view.backgroundColor = [UIColor grayColor];
-    controller4.tabBarItem.title=@"我的";
-    controller4.tabBarItem.image= [UIImage imageNamed:@"icon.bundle/home@2x.png"];
-    controller4.tabBarItem.selectedImage  =  [UIImage imageNamed:@"icon.bundle/home_selected@2x.png"];
-    [tabBarController setViewControllers:@[uiViewController,videoController,recommendViewController,controller4]];
+    GTMineViewController *mineViewController = [[GTMineViewController alloc] init];
+    [tabBarController setViewControllers:@[uiViewController,videoController,recommendViewController,mineViewController]];
     //   这是现在比较 流行 tab
     //   设置委托
     tabBarController.delegate = self;
@@ -55,13 +59,20 @@
     UINavigationController* newsNavigationController = [[UINavigationController alloc] initWithRootViewController:tabBarController];
     
     self.window.rootViewController = newsNavigationController;
-    //    [self.window.makeKeyAndVisible];
+//   加入闪屏逻辑 这行代码 必须有
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
 //   在ui准备完成之后 系统闪屏就会消失，这个时候要加入自己的闪屏
     [self.window addSubview:({
         GTSplashView* splashView =  [[GTSplashView alloc] initWithFrame:self.window.bounds];
         splashView;
     })];
+    
+//
+//    [[GTFrameworkTest alloc] init];
+     //定位和push
+    [[GTLocation locationManager] checkLocationAuthorization];
+
     return YES;
 }
 
@@ -97,5 +108,15 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+// 通过scheme
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options{
+//    url
+//    options  来源
+//    {
+//        UIApplicationOpenURLOptionsOpenInPlaceKey = 0;
+//        UIApplicationOpenURLOptionsSourceApplicationKey = "com.apple.mobilesafari";
+//    }
+    return YES;
+}
 
 @end

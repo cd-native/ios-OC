@@ -12,6 +12,7 @@
 #import "DelCellView.h"
 #import "../model/ListLoader.h"
 #import "../model/ListItem.h"
+#import "GTMediator.h"
 
 // 有一个 uiview 执行栈
 // 了解uiView的执行周期
@@ -155,8 +156,18 @@
 // 选择哪个 cell
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     ListItem* item   = [self.dataArray objectAtIndex:indexPath.row];
-    WkViewController *wkViewController = [[WkViewController alloc] initWithUrl:item.url];
-    [self.navigationController pushViewController:wkViewController animated:YES];
+//   组件有耦合的方式
+//    WkViewController *wkViewController = [[WkViewController alloc] initWithUrl:item.url];
+//    [self.navigationController pushViewController:wkViewController animated:YES];
+//    组件抽离第一种 target - action
+    __kindof UIViewController* detailController =[GTMediator detailControllerWithUrl:item.url];
+    [self.navigationController pushViewController:detailController animated:YES];
+    
+//   组件抽离通讯第二种方式 url Scheme
+//    detail:// 是写死
+//    缺陷：params 无法知道，需要看具体的load 注册是如何实现的
+     [GTMediator openUrl:@"detail" params:@{@"url":item.url,@"controller":self.navigationController}];
+    
     
 //   点击的时候 记录是否点击
     [[NSUserDefaults standardUserDefaults] setBool:YES forKey:item.uniquekey];

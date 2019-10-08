@@ -25,6 +25,7 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
+//        闪屏图片不同机型要做不同的适配
         self.image= [UIImage imageNamed:@"icon.bundle/splash.png"];
         [self addSubview:({
             _button = [[UIButton alloc] initWithFrame:UIRect(330,100,60,40)];
